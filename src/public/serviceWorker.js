@@ -6,5 +6,6 @@ self.addEventListener('push', e => {
     self.registration.showNotification( data.title, {
         icon: 'https://pngimg.com/uploads/github/github_PNG58.png',
         body: data.message,
+        vibrate: [200, 100, 200, 100, 200, 100, 400],
     })
 });
