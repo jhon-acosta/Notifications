@@ -6,18 +6,8 @@
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a
-          class="navbar-item"
-          href="/"
-        >
-          <img
-            src="~assets/buefy.png"
-            alt="Buefy"
-            height="28"
-          >
-        </a>
-
         <div class="navbar-burger">
+          <!-- <Notifications /> -->
           <span />
           <span />
           <span />
@@ -28,7 +18,7 @@
     <section class="main-content columns">
       <aside class="column is-2 section">
         <p class="menu-label is-hidden-touch">
-          General
+          Módulos
         </p>
         <ul class="menu-list">
           <li
@@ -53,7 +43,12 @@
 </template>
 
 <script>
+// import Notifications from '../components/Notifications.vue'
+
 export default {
+  // components: {
+  //   Notifications
+  // },
   data () {
     return {
       items: [
